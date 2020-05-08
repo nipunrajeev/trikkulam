@@ -1,0 +1,49 @@
+#little{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #262626;
+}
+
+#little .container{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#little .container .card{
+    position: relative;
+    max-width: 450px;
+    background: #fff;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+@media(max-width: 991px)
+{
+#little .container{
+    flex-direction: column;
+}
+}
+@media(max-width: 768px)
+{
+#little .container{
+    flex-direction: column;
+}
+#little .container .card{
+    flex-direction: column;
+    max-width: 350px;
+}
+#little .container .card .imgBx{
+    max-width: 100%;
+}
+#little .container .card .content{
+    margin-left: 0px;
+
+}
+}
+

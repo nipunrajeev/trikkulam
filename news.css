@@ -1,0 +1,197 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#news{
+    width: 100%;
+    height: 125vh;
+    background: #262626; 
+    background-size: cover;
+    }
+#news .leftBox{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#news .leftBox .content{
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 40px;
+    transition: .5s;
+}
+#news .leftBox .content:hover{
+    background: #e91e63;
+}
+#news .leftBox .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#news .leftBox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+}
+#news .events{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    float: right;
+    box-sizing: border-box;
+}
+#news .events ul{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+margin: 0;
+padding: 40px;
+box-sizing: border-box;
+}
+#news .events ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+#news .events ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+#news .events ul li:hover .time {
+    background: #e91e63;
+}
+#news .events ul li .time h3{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+#news .events ul li .time h3 span{
+    font-size: 30px;
+}
+#news .events ul li .details{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+#news .events ul li .details h3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    color: black;
+}
+#news .events ul li .details p{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 15px;
+    color: black;
+}
+#news .events ul li .details a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 13px;
+    transition: .5s;
+}
+#news .events ul li .details a:hover{
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+@media (max-width: 991px){
+    #news{
+        height: 100%;
+        background-position: center;
+    }
+    #news .leftBox{
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 20px;
+    }
+    #news .events{
+        width: 100%;
+        height: auto;
+        background: transparent;
+        float: none;
+    }
+    #news .leftBox .content{
+        padding: 20px;
+    }
+    #news .leftBox .content h2{
+        font-size: 30px;
+    }
+    #news .events ul{
+        position: relative;
+        transform: translateY(0px);
+        padding: 0 20px 20px;
+    }
+    #news .events ul li{
+        height: auto;
+    }
+    #news .events ul li .time{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+    }
+    #news .events ul li .time h3{
+        font-size: 30px;
+        line-height: 24px;
+    }
+    #news .events ul li .time h3 span{
+        font-size: 20px;
+    }
+    #news .events ul li .details{
+        width: 100%;
+        float: none;
+        padding-left: 100px;
+        background: transparent;
+    }
+    #news .events ul li .details a{
+        padding: 5px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

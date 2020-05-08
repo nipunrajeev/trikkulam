@@ -1,0 +1,21 @@
+#imageClub{
+    background: #262626;
+}
+#imageClub h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 25px;
+}
+#imageClub .galleryClub{
+    margin: 10px 50px;
+}
+#imageClub .galleryClub img{
+    transition: 1s;
+    transform: scale(1.5);
+}
+#imageClub .galleryClub img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.7);
+}
+
